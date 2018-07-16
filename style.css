@@ -1,0 +1,451 @@
+*
+{
+    margin: 0;
+    padding:0;
+}
+header
+{
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url(Diary-13a.jpg);
+        height: 100vh;
+        background-size:cover;
+        background-position: center;
+    
+}
+
+.main-nav
+{
+    float:right;
+    list-style: none;
+    margin-top: 30px;
+}
+
+.main-nav li
+{
+    display: inline-block;
+}
+
+.main-nav li a
+{
+    color: cornsilk;
+    text-decoration: none;
+    padding: 5px 20px;
+    font-family: "Roboto", sans-serif;
+    font-size: 15px;
+}
+
+.main-nav li.active a
+{
+    border:1px solid white;
+    background-color: burlywood;
+}
+
+.main-nav li a:hover
+{
+    border:1px solid white;
+    background-color: burlywood;
+    transition: all 0.2s ease-in;
+}
+
+.logo img
+{
+    width: 245px;
+    height: auto;
+    float: left;
+}
+
+.row
+{
+    max-width: 1770px;
+    margin: auto;
+}
+
+.hero
+{
+    position: absolute;
+    width: 1100px;
+    margin-left: 150px;
+    margin-top: 0px;
+}
+
+h2
+{
+    color:burlywood;
+    text-transform:uppercase;
+    font-size: 80px;
+    text-align: center;
+    margin-left: 200px;
+    margin-top: 275px;
+    font-family: cursive;
+    
+}
+
+h3
+{
+   margin: 0;
+    padding: 0 0 20px;
+    position: absolute;
+    top: 8px;
+    left: 250px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    color: burlywood;
+}
+p
+{
+   color:cornsilk;
+    text-transform:uppercase;
+    font-size: 16px;
+    text-align:center;
+    margin-left: 200px;
+    margin-top: 20px;
+    font-family: cursive;
+}
+p small {
+  font-size: 0.9em;
+}
+
+.button
+{
+    margin-top: 30px;
+    margin-left: 520px;
+}
+
+.btn
+{
+    display:inline-block;
+    padding:0.35em 1.2em;
+    border:0.1em solid #FFFFFF;
+    margin:0 0.3em 0.3em 0;
+    border-radius:0.12em;
+    box-sizing: border-box;
+    text-decoration:none;
+    font-family:'Roboto',sans-serif;
+    font-weight:300;
+    text-transform: uppercase;
+    color:#FFFFFF;
+    text-align:center;
+}
+
+.btn-one
+{
+    background-color: burlywood;
+    font-family:"Roboto", sans-serif;
+}
+
+.btn-two
+{
+    font-family: "Roboto",sans-serif;
+}
+
+.btn-two:hover
+{
+    background-color: burlywood;
+    transition: all 0.5s ease-in;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.loginbox{
+    width: 350px;
+    height: 420px;
+    background: #514b3f;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 155px 30px;
+    border-radius: 5px;
+}
+
+.new_entry{
+    width: 650px;
+    height: 420px;
+    background: #514b3f;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 50px 30px;
+    border-radius: 5px;
+}
+.avatar{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: -50px;
+    left: calc(50% - 50px);
+}
+
+.avatar1{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    position: absolute;
+    top: 40px;
+    left: calc(50% - 50px);
+}
+
+h1{
+    margin: 0;
+    padding: 0 0 20px;
+    position: absolute;
+    top: 80px;
+    left: 150px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    color: burlywood;
+}
+
+h5{
+    margin: 0;
+    padding: 0 0 20px;
+    position: absolute;
+    top: 80px;
+    left: 167px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    color: burlywood;
+}
+
+h6{
+    margin: 0;
+    padding: 0 0 20px;
+    position: absolute;
+    top: 60px;
+    left: 170px;
+    text-align: center;
+    font-size: 22px;
+    font-family: cursive;
+    color: burlywood;
+}
+
+h5{
+    margin: 0;
+    padding: 0 0 20px;
+    position: absolute;
+    top: 350px;
+    left: 0px;
+    text-align: center;
+    font-size: 20px;
+    font-family: cursive;
+    color: burlywood;
+}
+
+.loginbox p{
+    margin: 0;
+    padding: 0;
+    font-weight: bold;
+}
+
+.loginbox input{
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.loginbox input[type="text"], input[type="password"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.loginbox input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #a88d54;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.loginbox input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #676829;
+    color: #000;
+}
+.loginbox a{
+    text-decoration: none;
+    font-size: 12px;
+    line-height: 20px;
+    color: darkgrey;
+}
+
+.loginbox a:hover
+{
+    color: burlywood;
+}
+
+.registration{
+    width: 420px;
+    height: 530px;
+    background: #514b3f;
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 135px 30px;
+    border-radius: 5px;
+}
+.registration input{
+    width: 100%;
+    margin-bottom: 15px;
+}
+
+.registration input[type="text"], input[type="password"], input[type="email"]
+{
+    border: none;
+    border-bottom: 1px solid #fff;
+    background: transparent;
+    outline: none;
+    height: 40px;
+    color: #fff;
+    font-size: 16px;
+}
+.registration input[type="submit"]
+{
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #a88d54;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+}
+.registration input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #676829;
+    color: #000;
+}
+
+.registration a:hover
+{
+    color: burlywood;
+}
+
+body {
+  font-family: 'lato', sans-serif;
+}
+.container {
+  max-width: 1000px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 90px;
+    
+}
+h4 {
+  font-size: 50px;
+  margin: 20px 0;
+  text-align: center;
+  font-family: cursive;
+  color: burlywood;
+}
+h4 small {
+  font-size: 0.9em;
+}
+.responsive-table li {
+  border-radius: 3px;
+  padding: 13px 30px;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  margin-bottom: 10px
+}
+.responsive-table .table-header {
+  background-color: saddlebrown;
+  font-size: 14px;
+  text-transform: uppercase;
+  letter-spacing: 0.03em;
+}
+.responsive-table .table-row {
+  background-color:navajowhite;
+  box-shadow: 0px 0px 9px 0px rgba(0, 0, 0, 0.1);
+}
+.responsive-table .col-1 {
+  flex-basis: 10%;
+}
+.responsive-table .col-2 {
+  flex-basis: 30%;
+}
+.responsive-table .col-3 {
+  flex-basis: 25%;
+}
+.responsive-table .col-4 {
+  flex-basis: 10%;
+}
+.responsive-table .col-5 {
+  flex-basis: 10%;
+}
+
+.responsive-table .col-6 {
+  flex-basis: 10%;
+}
+
+@media all and (max-width: 767px) {
+  .responsive-table .table-header {
+    display: none;
+  }
+  .responsive-table li {
+    display: block;
+  }
+  .responsive-table .col {
+    flex-basis: 100%;
+  }
+  .responsive-table .col {
+    display: flex;
+    padding: 10px 0;
+  }
+  .responsive-table .col:before {
+    color: #6c7a89;
+    padding-right: 10px;
+    content: attr(data-label);
+    flex-basis: 50%;
+    text-align: right;
+  }
+}
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+input[type=submit] {
+    background-color: burlywood;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+}
+
+input[type=submit]:hover {
+    background-color: saddlebrown;
+
+
